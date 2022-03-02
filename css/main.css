@@ -1,5 +1,33 @@
+/* common */
 body {
+    color:#333;
+    font-size: 16px;
+    line-height: 1.4;
     font-family: 'Nanum Gothic', sans-serif;
-    
-    font-size: 100px;
+
+}
+img{
+    display: block;
+}
+
+
+/* header */
+header{
+    background-color: royalblue;
+}
+header .inner {
+    width: 1100px;
+    height: 120px;
+    margin: auto;  /*화면의 중앙*/
+    background-color: orange;
+    position: relative;
+}
+
+header .logo{
+    height: 75px;
+    position: absolute;  /*inner부분에 포지션이있어야함 */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
 }
